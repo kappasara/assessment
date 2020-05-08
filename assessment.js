@@ -95,7 +95,7 @@ function assessment (userName) {
 }
 
 console.log(assessment('太郎'));
-console.log(assessment('雄太'));
+console.log(assessment('一郎'));
 console.assert(
     assessment('太郎') === assessment('太郎'),
     '診断結果の文言の特定部分に誤りがあります'
